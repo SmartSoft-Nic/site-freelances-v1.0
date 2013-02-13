@@ -1,1 +1,11 @@
 /*Css Cabecera*/
+/*Cabecera Animada*/
+#headerAnimated{
+	border: solid black;
+	height: 100px;
+	width: 970px;
+}
+
+body{
+	background-color:rgba(136, 102, 91, 0.42);
+}
