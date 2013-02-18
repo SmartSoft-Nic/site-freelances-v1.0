@@ -1,0 +1,77 @@
+body{
+font-size: 1em;
+background-color: rgba(14, 24, 47, 0.94);
+margin: 0px;
+padding: 0px;
+min-width: 320px;
+max-width: 
+}
+
+html{
+	font-size: 100%;
+}
+
+/*Incluyendo las fuentes*/
+@font-face{
+font-family: FrederickaTheGreat;
+src:url(../fonts/Fredericka.woff);
+}
+
+#superior{
+	background-color: rgb(54, 97, 141);
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 5px solid rgba(33, 70, 109, 0.84);
+	height: 200px;
+	font-family: FrederickaTheGreat;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+
+#superior h1{
+	margin: 0px;
+	padding: 10px;
+	letter-spacing: 5px;
+}
+
+#menuContent{
+	margin-top: -4.5%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	height: 100px;
+	/*background-color: rgba(245, 200, 85, 0.91);*/
+	background-image: url('../img/tijera.png') ,url('../img/contentMenu.png') ;
+	background-repeat: no-repeat, repeat;
+	background-position: 20px 40px, 0px;
+	border: 3px solid rgba(241, 215, 147, 0.91);
+	box-shadow: 0px 10px 50px #000;
+	-moz-box-shadow: 0px 10px 50px #000;
+	-webkit-box-shadow: 0px 10px 50px #000;
+}
+
+#content{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;		
+	border: 1px solid #000;
+	position: relative;
+	margin-top: -2%;
+	height: 200px;
+	z-index: -2;
+	background-color: rgb(255, 250, 189);
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border: 5px solid rgba(214, 200, 92, 0.66);
+}
+
+footer{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	height: 100px;
+	border-top: 5px solid rgba(33, 70, 109, 0.84);
+	border-bottom: 5px solid rgba(33, 70, 109, 0.84);
+	background-color: rgb(54, 97, 141);
+}
