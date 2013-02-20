@@ -28,6 +28,12 @@ src:url(../fonts/AnticSlab.woff);
 
 }
 
+@font-face {
+ font-family: Jacques;
+ src:url(../fonts/Jacques.woff);
+
+}
+
 #superior{
 	background-color: rgb(54, 97, 141);
 	margin: 0px;
@@ -97,12 +103,22 @@ footer{
 	background-color: rgb(54, 97, 141);
 }
 
+
+footer{
+	text-align: center;
+	font-family: Jacques;
+	font-size: 10px;
+	 }
+
 article h2{
 	margin-top: 40px;
-	text-align: center;
+	margin-left: 10px;
+	text-align: left;
 font-size: 25px;
 font-family: Risque;
-text-shadow: 2px 2px rgb(128, 119, 119);
+/*text-shadow: 2px 2px rgb(128, 119, 119);*/
+text-shadow: 2px 2px rgba(150, 137, 137, 0.48);
+
 }
 
 article p{
@@ -113,6 +129,23 @@ article p{
 	margin-left: 10px;
 	margin-right: 10px;
 	color: rgb(185, 73, 73);
+	/*otro color color: rgb(190, 11, 11)*/
+	background-image: url('../img/lineas.png');
+	
+	background-repeat: repeat;
+	
+	
 
 
+}
+
+
+/*#dibujoarticulo{
+margin-top: 40px;
+margin-left: 1px;
+width: 193px;
+height: 38px;
+border: 1 px solid #000;
+background-color: #fff;
+*/
 }
