@@ -1,0 +1,160 @@
+@font-face{
+	font-family: dirtyheadline;
+	src:url(../fonts/dirtyheadline.ttf);
+}
+
+body{
+background-color: rgb(243,182,18);
+}
+
+nav, #mainMenu, nav li{
+	margin: 0px;
+	padding: 0px;
+}
+
+#mainMenu{
+	width: 573px;
+	height: 55px;
+	border: 2px dotted rgb(172, 138, 123);
+	border-radius: 10px;
+	/*background: url('../img/menuBground.png');*/
+	background-color: rgba(60, 15, 15, 0.93);
+}
+
+#mainMenu ul {
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 1px;
+	margin-top: 7px;
+}
+
+#mainMenu ul li{
+	border:2px solid rgba(88, 66, 66, 0.63);
+	background: -webkit-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(122, 105, 87));
+	background: -moz-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(122, 105, 87));
+	background-color: rgba(94, 71, 71, 0.85);
+	background-position: center center;
+	background-size: 200px 68px;
+	float: left;
+	position: relative;
+	padding:5px 10px;
+	/*background-color: rgba(90, 50, 50, 0.83);*/
+	margin-left: 1px;
+}
+
+#mainMenu ul li:first-child{
+	border-radius: 10px 0px 0px 10px;
+}
+
+#mainMenu ul li:last-child{
+border-radius: 0px 10px 10px 0px;	
+}
+
+#mainMenu li a{
+	font-family: dirtyheadline;
+	font-size: 20px;
+	/*color: rgb(177, 180, 207);*/
+	text-shadow: 0px -1px 10px white;
+	color: black;
+	text-decoration: none;
+	padding: 0px 5px;
+	list-style: none;
+}
+
+#mainMenu li a:visited{
+	list-style: none;
+	text-decoration: none;
+}
+
+#mainMenu li a:hover{
+	color:white;
+	text-shadow:0px -1px 10px white;
+}
+
+/*Submenu*/
+#mainMenu li ul{
+	left: 15%;
+	padding-top: 10px;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-o-border-radius: 10px 10px 10px 10px; 
+	position: absolute;
+	width: 150px;
+	padding: 0px 10px;
+	text-align: center;
+	display: none;
+	border: 1px solid rgb(172, 138, 123);
+	background-color: rgba(60, 15, 15, 0.93);
+	overflow: hidden;
+	z-index: -1px;
+	background:-webkit-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(163, 125, 84));
+}
+
+#mainMenu li ul li{
+	border-radius: 0px 0px 0px 0px !important;
+	margin-top: 2px;
+	background: none !important;
+	border: none;
+	text-align: left;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#mainMenu li ul a{
+	margin-left: 0px !important;
+}
+
+#mainMenu li:hover ul{
+	display: block;
+}
+
+.subLevel li{
+	font-size: 15px;
+	margin-top: 10px;
+	padding: 5px !important;
+}
+
+/*Agregando animacion*/
+@keyframe animacionHover{
+	0%{
+		background:-webkit-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(163, 125, 84));
+	}
+	20%{
+		background:-webkit-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(214, 147, 75))
+	}
+	50%{
+		background:-webkit-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(233, 139, 38));
+	}
+	80%{
+		background:-webkit-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(255, 132, 0));
+	}
+	100%{
+		background:-webkit-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(255, 204, 0));
+	}
+}
+
+@-webkit-keyframes animacionHover{
+	0%{
+		
+	}
+	20%{
+		background:-webkit-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(214, 147, 75))
+	}
+	50%{
+		background:-webkit-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(233, 139, 38));
+	}
+	80%{
+		background:-webkit-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(255, 132, 0));
+	}
+	100%{
+		background:-webkit-linear-gradient(top, rgba(36, 23, 23, 0.41), rgb(255, 204, 0));
+	}
+
+}
+
+@-moz-keyframe animacionHover{}
+
+@-o-keyframe animacionHover{}
+
