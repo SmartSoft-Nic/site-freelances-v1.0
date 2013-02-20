@@ -1,5 +1,0 @@
-
-<?
-//Probando la conexion.
-include ""
-?>
