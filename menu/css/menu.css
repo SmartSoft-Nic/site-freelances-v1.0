@@ -3,10 +3,6 @@
 	src:url(../fonts/dirtyheadline.ttf);
 }
 
-body{
-background-color: rgb(243,182,18);
-}
-
 nav, #mainMenu, nav li{
 	margin: 0px;
 	padding: 0px;
@@ -17,7 +13,6 @@ nav, #mainMenu, nav li{
 	height: 55px;
 	border: 2px dotted rgb(172, 138, 123);
 	border-radius: 10px;
-	/*background: url('../img/menuBground.png');*/
 	background-color: rgba(60, 15, 15, 0.93);
 }
 
@@ -157,4 +152,3 @@ border-radius: 0px 10px 10px 0px;
 @-moz-keyframe animacionHover{}
 
 @-o-keyframe animacionHover{}
-
