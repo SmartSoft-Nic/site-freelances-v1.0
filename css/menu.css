@@ -3,10 +3,6 @@
 	src:url(../fonts/dirtyheadline.ttf);
 }
 
-body{
-background-color: rgb(243,182,18);
-}
-
 nav, #mainMenu, nav li{
 	margin: 0px;
 	padding: 0px;

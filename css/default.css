@@ -25,7 +25,6 @@ src:url(../fonts/Risque.woff);
 @font-face{
 font-family: AnticSlab;
 src:url(../fonts/AnticSlab.woff);
-
 }
 
 @font-face {
@@ -76,22 +75,14 @@ src:url(../fonts/AnticSlab.woff);
 	border: 1px solid #000;
 	position: relative;
 	margin-top: -2%;
-	
+
 	z-index: -2;
 	background-color: rgb(255, 250, 189);
 	border-radius: 8px;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border: 5px solid rgba(214, 200, 92, 0.66);
-
-
 }
-
-nav{
-
-
-}
-
 
 
 footer{
@@ -101,23 +92,18 @@ footer{
 	border-top: 5px solid rgba(33, 70, 109, 0.84);
 	border-bottom: 5px solid rgba(33, 70, 109, 0.84);
 	background-color: rgb(54, 97, 141);
-}
-
-
-footer{
 	text-align: center;
 	font-family: Jacques;
 	font-size: 10px;
-	 }
+}
 
 article h2{
 	margin-top: 40px;
 	margin-left: 10px;
 	text-align: left;
-font-size: 25px;
-font-family: Risque;
-/*text-shadow: 2px 2px rgb(128, 119, 119);*/
-text-shadow: 2px 2px rgba(150, 137, 137, 0.48);
+	font-size: 25px;
+	font-family: Risque;
+	text-shadow: 2px 2px rgba(150, 137, 137, 0.48);
 
 }
 
@@ -131,21 +117,5 @@ article p{
 	color: rgb(185, 73, 73);
 	/*otro color color: rgb(190, 11, 11)*/
 	background-image: url('../img/lineas.png');
-	
 	background-repeat: repeat;
-	
-	
-
-
-}
-
-
-/*#dibujoarticulo{
-margin-top: 40px;
-margin-left: 1px;
-width: 193px;
-height: 38px;
-border: 1 px solid #000;
-background-color: #fff;
-*/
 }
